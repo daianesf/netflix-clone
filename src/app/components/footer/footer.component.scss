@@ -1,0 +1,40 @@
+.footer {
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+    padding: 20px;
+    width: 100%;
+    max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-justify;
+    gap: 16px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.links {
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 12px;
+
+}
+
+.links li a , .copyright{
+  color: #aaa;
+  font-size: 14px;
+  text-decoration: none;
+}

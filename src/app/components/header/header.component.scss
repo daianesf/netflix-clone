@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 32px;
+    background-color: #141414;
+    margin-bottom: 30px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.navigation ul, .actions ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+li a.link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}

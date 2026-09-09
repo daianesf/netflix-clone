@@ -1,0 +1,21 @@
+.filmes {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+  background-color: #191919;
+}
+
+app-filme {
+  flex: 0 0 180px;
+  
+}
+
+
+.banner {
+  width: 180px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 5px;
+  background-color: #191919;
+}

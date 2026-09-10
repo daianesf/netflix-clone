@@ -1,7 +1,7 @@
 import { Component, OnInit, signal } from '@angular/core';
 import { FilmesService } from '../../services/filmes.service';
 import { Filme } from '../../models/filme';
-import { FilmeComponent } from '../filme/filme.component';
+import { FilmeComponent } from '../../components/filme/filme.component';
 
 @Component({
   selector: 'app-lista-filmes',

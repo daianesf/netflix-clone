@@ -5,8 +5,13 @@ import { Filme } from '../../models/filme';
   selector: 'app-filme',
   imports: [],
   templateUrl: './filme.component.html',
-  styleUrl: './filme.component.scss'
+  styleUrl: './filme.component.scss',
 })
 export class FilmeComponent {
   filme = input.required<Filme>();
+
+  onImageError(event: ErrorEvent) {
+    const img = event.target as HTMLImageElement;
+    img.src = 'assets/movie-placeholder.png';
+  }
 }

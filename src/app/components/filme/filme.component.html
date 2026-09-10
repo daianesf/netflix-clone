@@ -1,4 +1,8 @@
-<body class="filmes">
-    <img class="banner" src="{{filme().banner}}" alt="{{filme().titulo}}">
-
+<body class="filme">
+  <img
+    class="banner"
+    src="{{ filme().banner }}"
+    alt="{{ filme().titulo }}"
+    (error)="onImageError($event)"
+  />
 </body>

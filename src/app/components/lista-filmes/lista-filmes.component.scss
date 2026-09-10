@@ -1,26 +1,24 @@
-p {
-    min-height: calc(100vh - 398px);
+main {
+  background-color: #191919;
 }
-h1 {
-    color: white;
-    font-size: 30px;
-    margin: 30px;
-    background-color: #191919;
-    padding: 30px;
-    border: 2px solid #333;
-    padding: 20px;
-}
-.main {
-    background-color: #191919;
-    border: 2px solid #333;
 
+p {
+  min-height: calc(100vh - 398px);
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  background-color: #191919;
+  padding: 30px;
+  padding: 20px;
 }
 
 .filmes {
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  overflow-x: auto;
+  justify-content: space-around;
+  gap: 32px;
+  flex-wrap: wrap;
   padding: 20px;
-  background-color: #191919;
 }
